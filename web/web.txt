@@ -1,0 +1,15 @@
+The internets physical body is wires and radio waves that travel 
+between computers.  It also includes routers and the computers themselves.
+There are also servers which are computers directly connected to the primary 
+wires without any routers. The internet is comprised of smaller networks.
+
+When looking for a website your computer sends out the request which then 
+goes to a local DNS cache that if it knows where will respond to the computer 
+with the location and the computer will then directly communicate with the website.
+If the local DNS cache doesn't know it will then move up where it will repeat the 
+process with the local router DNS, then the ISP DNS, then the internet where it 
+will get the root DNS servers.  Once communicating it will send out packets that 
+will move through the internet through routers and ISPs, each time putting an 
+additional layer around it indicating where it came from. once recieved it will 
+respond with the same layers unwrapping at the same locations till it reaches 
+the original computer.
